@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django_postgresql_poetry_template"
+version = "0.1.0"
+description = "A template for projects utilizing django, postgreSQL, and poetry."
+authors = ["Jason (제이슨) <jasonjerome16@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.3"
+Django = "^4.0.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
