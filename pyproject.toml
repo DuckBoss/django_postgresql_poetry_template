@@ -7,7 +7,7 @@ authors = ["Jason (제이슨) <jasonjerome16@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 psycopg2 = "^2.9.3"
-Django = "^4.0.6"
+Django = "^4.1.7"
 
 [tool.poetry.dev-dependencies]
 
